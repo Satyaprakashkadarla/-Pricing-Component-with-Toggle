@@ -1,0 +1,30 @@
+1. HTML Structure:
+Container: Contains the entire pricing component.
+Toggle Container: Contains the toggle switch for switching between monthly and yearly pricing.
+Pricing: Contains pricing options.
+Total: Displays the total price.
+
+2. CSS Styles:
+General Styling: Styles for container, toggle switch, labels, pricing options, and total section.
+Toggle Switch Styling: Styling for the toggle switch using CSS.
+Pricing Options Styling: Styling for the pricing options.
+
+3. JavaScript:
+Initialization: Listen for the DOMContentLoaded event.
+Event Listener: Listen for changes in the toggle switch state.
+Toggle Functionality: Update pricing options based on the toggle state (monthly or yearly).
+Update Total Function: Calculate and update the total price based on selected pricing options.
+
+HTML File (index.html):
+Structure the HTML elements for the pricing component.
+Include links to external CSS and JavaScript files.
+
+CSS File (styles.css):
+Add styles for the HTML elements to create the desired layout and appearance.
+Include styles for the toggle switch and pricing options.
+
+JavaScript File (script.js):
+Implement functionality to toggle between monthly and yearly pricing.
+Calculate the total price based on the selected pricing options.
+Update the HTML elements dynamically based on user interactions.
+This structured approach separates the project into distinct sections for HTML structure, CSS styling, and JavaScript functionality, making it easier to understand and maintain.
